@@ -127,6 +127,16 @@ body {
     border-top-color: var(--blue);
 }
 
+@media (min-width: 760px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 1.5em;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+}
 @media (min-width: 1110px) {
     .services-heading {
         font-size: 2.5rem;
