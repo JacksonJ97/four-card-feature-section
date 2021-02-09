@@ -85,18 +85,56 @@ body {
     float: right;
 }
 
-.card-border-one {
+.card-one {
     border-top-color: var(--cyan);
 }
 
-.card-border-two {
+.card-two {
     border-top-color: var(--red);
 }
 
-.card-border-three {
+.card-three {
     border-top-color: var(--orange);
 }
 
-.card-border-four {
+.card-four {
     border-top-color: var(--blue);
+}
+
+@media (min-width: 1110px) {
+    .services-heading {
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        column-gap: 1.5em;
+        max-width: 1150px;
+        max-height: 520px;
+        margin: 0 auto;
+    }
+
+    .card-one {
+        grid-column: 1;
+        grid-row: 3/7;
+    }
+
+    .card-two {
+        grid-column: 2;
+        grid-row: 1/5;
+    }
+
+    .card-three {
+        grid-column: 3;
+        grid-row: 3/7;
+    }
+
+    .card-four {
+        grid-column: 2;
+        grid-row: 5/9;
+    }
 }
