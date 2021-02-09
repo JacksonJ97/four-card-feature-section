@@ -1,6 +1,8 @@
 * {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -17,4 +19,84 @@ body {
     font-size: 1rem;
     color: var(--grayishBlue);
     background-color: var(--veryLightGray);
+}
+
+.unbold {
+    font-weight: 200;
+}
+
+.services-container {
+    width: 85%;
+    margin: 4em auto;
+}
+
+.services-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.services-heading {
+    font-size: 1.5rem;
+    color: var(--veryDarkBlue);
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.services-subheading {
+    max-width: 585px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    background-color: white;
+    border-top: 4px solid;
+    border-radius: 6px;
+    box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 360px;
+    padding: 1.5em;
+    margin-bottom: 1.75em;
+}
+
+.card-heading {
+    font-size: 1.25rem;
+    color: var(--veryDarkBlue);
+    margin-bottom: 0.5em;
+}
+
+.card-body {
+    font-size: 0.875rem;
+    line-height: 1.75em;
+    margin-bottom: 2.5em;
+}
+
+.card-image {
+    float: right;
+}
+
+.card-border-one {
+    border-top-color: var(--cyan);
+}
+
+.card-border-two {
+    border-top-color: var(--red);
+}
+
+.card-border-three {
+    border-top-color: var(--orange);
+}
+
+.card-border-four {
+    border-top-color: var(--blue);
 }
