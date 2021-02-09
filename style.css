@@ -64,7 +64,7 @@ body {
     border-top: 4px solid;
     border-radius: 6px;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
-    overflow: hidden;
+    overflow: hidden; /* To make the card image not overflow out of the card container */
     max-width: 360px;
     padding: 1.5em;
     margin-bottom: 1.75em;
